@@ -19,6 +19,10 @@ end
 gem 'jquery-rails', '2.2.1'
 gem 'execjs'
 
+group :production do
+  gem 'pg', '0.15.1'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
