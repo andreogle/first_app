@@ -21,6 +21,7 @@ end
 
 gem 'jquery-rails', '2.2.1'
 gem 'execjs'
+gem 'turbolinks'
 
 group :production do
   gem 'pg', '0.15.1'
